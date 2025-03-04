@@ -1,5 +1,5 @@
 # Usa una imagen base oficial de OpenJDK (versión 17 en este caso)
-FROM openjdk:23-jdk-slim
+FROM openjdk:17-jdk-slim
 
 # Establece el directorio de trabajo dentro del contenedor
 WORKDIR /demo
